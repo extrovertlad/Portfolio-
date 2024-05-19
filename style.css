@@ -531,6 +531,20 @@ header.sticky{
     }
 
 }
+/* @media(max-width:(500px)){
+    .p{
+        --big-font: 2rem;
+            --h2-font: 1.5rem;
+            --p-font: 1rem;
+            transition: 1.1s;
+    }
+    .h5{
+        --big-font: 2rem;
+            --h2-font: 1.5rem;
+            --p-font: 1rem;
+            transition: 1.1s;
+    }
+} */
 
 @media (max-width:920px){
         .about{
@@ -636,5 +650,27 @@ header.sticky{
 @media(max-width:800px){
     .contact-inputs{
         width:80vw;
+    }
+}
+
+@media(max-width:600px){
+    .home{
+    }
+    .home-text ,h1{
+        font-size: 10px;
+    }
+}
+@media(max-width:500px){
+    .home{
+    }
+    .home-text ,h1{
+        font-size: 10px;
+    }
+}
+@media(max-width:300px){
+    .home{
+    }
+    .home-text ,h1{
+        font-size: 10px;
     }
 }
