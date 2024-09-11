@@ -674,3 +674,12 @@ header.sticky{
         font-size: 10px;
     }
 }
+.ke{
+    padding-top: 30px;
+    padding-left: 450px;
+}
+.ke:hover{
+    border: white;
+    color: white;
+    border-radius: solid 2px white;
+}
